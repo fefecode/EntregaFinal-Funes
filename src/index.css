@@ -1,0 +1,21 @@
+body {
+  margin: 20;
+  font-family: system-ui;
+  background-color: rgb(132, 110, 91);
+}
+
+main{
+  margin-top: 120px;
+  text-align: center;
+}
+a{  
+  text-decoration: none !important;
+}
+a:visited{
+  color: white !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

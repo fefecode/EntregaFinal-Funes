@@ -1,0 +1,56 @@
+nav {
+  background-color: #4d3319;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul.nav-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+li.nav-item {
+  margin-right: 10px;
+}
+
+li.nav-item:last-child {
+  margin-right: 0;
+}
+
+a.nav-link {
+  color: #d9b382;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #7d5f3e;
+  transition: background-color 0.3s;
+}
+
+a.nav-link:visited{
+  color: white;
+}
+
+a.nav-link:hover {
+  background-color: #bf8b55;
+}
+
+h2 {
+  color: #d9b382;
+  margin: 0;
+  margin-right: 10px;
+}
+
+/* Estilos para el ícono de carrito de compras */
+.cart-widget {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  color: #d9b382;
+  font-size: 24px;
+  margin-left: 10px;
+}
